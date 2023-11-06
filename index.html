@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="./game.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="icon" type="image/x-icon" href="/fav.jpg" />
+  </head>
+  <body>
+    <nav>
+      <button class="againBtn" style="visibility: hidden">Again</button>
+      <div class="gameL">
+        <button class="gameLevel">Easy</button>
+        <p class="gameScale">(1-20)</p>
+      </div>
+    </nav>
+    <header>
+      <h1>Guess My Number</h1>
+      <div class="number">
+        <img src="./question.jpg" alt="" />
+        <span class="randomNumber"></span>
+        <img src="" alt="" class="emoji" />
+      </div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" max="20" min="1" />
+        <button class="checkBtn">Check</button>
+      </section>
+      <section class="right">
+        <h1 class="msg">The game begins.</h1>
+        <p class="gameStatus"><img src="" alt="" / class="sta"></p>
+        <p class="score-label">💯Score:<span class="score">10</span></p>
+        <p class="prevGuess">previous guess:</p>
+        <p class="top-score-label">🏅Point:<span class="top-score"></span></p>
+      </section>
+    </main>
+
+    <script src="./game.js"></script>
+  </body>
+</html>
