@@ -60,6 +60,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+    line-height: 10px;
 }
 
 .gameL {
