@@ -70,6 +70,7 @@ main {
 .gameL button {
   color: white;
   cursor: pointer;
+  background-color: green;
   font-weight: bold;
   font-family: "VT323", monospace;
   border-radius: 5px;
